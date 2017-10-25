@@ -12,7 +12,11 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+        debug {
+            buildConfigField "String", "URL", "\"https://cloudapp-183015.appspot.com/_ah/api/versionAppApi/v1/versionApp/1\""
+        }
         release {
+            buildConfigField "String", "URL", "\"https://versionapp-184011.appspot.com/_ah/api/versionAppApi/v1/versionApp/1\""
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
