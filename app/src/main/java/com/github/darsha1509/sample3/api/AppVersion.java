@@ -10,4 +10,7 @@ public class AppVersion {
     @SerializedName("versionCode")
     private String versionCode;
 
+    public String getVersionCode() {
+        return versionCode;
+    }
 }

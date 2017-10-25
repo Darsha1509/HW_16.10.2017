@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Sample3</string>
+    <string name="dialog_title">Application updating</string>
+    <string name="dialog_message">You must update you app</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_message_choice">Do you want to update?</string>
+    <string name="new_version">New version ia available to update</string>
+    <string name="updated_version">You have updated version</string>
 </resources>
