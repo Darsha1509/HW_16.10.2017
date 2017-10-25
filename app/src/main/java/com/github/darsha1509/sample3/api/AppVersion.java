@@ -13,4 +13,8 @@ public class AppVersion {
     public String getVersionCode() {
         return versionCode;
     }
+
+    public void setVersionCode(String pVersionCode) {
+        versionCode = pVersionCode;
+    }
 }

@@ -38,6 +38,10 @@ public class VersionListener implements HttpClient.ResponseListener {
         return result;
     }
 
+    public void setResult(AppVersion pResult) {
+        result = pResult;
+    }
+
     public Throwable getThrowable() {
         return mThrowable;
     }
